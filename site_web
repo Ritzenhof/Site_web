@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page de Mécatronique - Monsieur [Votre Nom]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 2rem;
+            margin: 1rem;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bienvenue à la page de Mécatronique de [Christian Chevalier]</h1>
+</header>
+
+<nav>
+    <a href="#secondaire1">Secondaire 1</a>
+    <a href="#secondaire2">Secondaire 2</a>
+    <a href="#secondaire3">Secondaire 3</a>
+</nav>
+
+<section id="secondaire1">
+    <h2>Secondaire 1</h2>
+    <p>Bienvenue dans la section pour les élèves de secondaire 1! Ici, vous trouverez des ressources, des exercices et des informations spécifiques à votre niveau.</p>
+    <!-- Ajoutez plus de contenu pour les élèves de secondaire 1 ici -->
+</section>
+
+<section id="secondaire2">
+    <h2>Secondaire 2</h2>
+    <p>Bienvenue dans la section pour les élèves de secondaire 2! Cette section contient tout ce dont vous avez besoin pour votre année en mécatronique.</p>
+    <!-- Ajoutez plus de contenu pour les élèves de secondaire 2 ici -->
+</section>
+
+<section id="secondaire3">
+    <h2>Secondaire 3</h2>
+    <p>Bienvenue dans la section pour les élèves de secondaire 3! Retrouvez ici des informations avancées et des projets pour votre année.</p>
+    <!-- Ajoutez plus de contenu pour les élèves de secondaire 3 ici -->
+</section>
+
+<footer>
+    <p>&copy; 2024 Monsieur [Votre Nom]. Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>
